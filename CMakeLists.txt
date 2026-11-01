@@ -11,6 +11,8 @@ add_library(weird_repl_core STATIC
         ASTNode.h
         Lexer.cpp
         Lexer.h
+        Parser.cpp
+        Parser.h
 )
 
 target_include_directories(weird_repl_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
