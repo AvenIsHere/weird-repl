@@ -64,4 +64,6 @@ std::unique_ptr<AST::Node> Parser::parse(size_t end) {
             node = AST::Add(std::move(node), std::move(right));
         }
     }
+
+    return node;
 }
